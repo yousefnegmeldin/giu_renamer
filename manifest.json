@@ -7,11 +7,14 @@
     "background": {
       "service_worker": "background.js"
     },
-    "action": {
-      "default_popup": "popup.html"
-    },
     "icons": {
       "48": "foldericon.png"
+    },
+    "content_scripts": [
+    {
+      "matches": ["https://cms.giu-uni.de/*","http://127.0.0.1:5500/giu_renamer/*"],
+      "js": ["./content.js"]
     }
+    ]
   }
   
