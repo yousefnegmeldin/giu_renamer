@@ -1,4 +1,4 @@
-# GIU File Renamer
+# Better File Names - GIU
 
 ## Introduction
 
