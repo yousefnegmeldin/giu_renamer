@@ -1,4 +1,5 @@
-const courseName = document.querySelector("#ContentPlaceHolderright_ContentPlaceHoldercontent_LabelCourseName").innerText;
+const courseName = document.querySelector("#ContentPlaceHolderright_ContentPlaceHoldercontent_LabelCourseName")?.innerText;
+if(!courseName) return; 
 const trimmedCourseName = courseName.replace(/\s*\(.*?\)\s*$/, "");
 
 const downloadButtons = document.querySelectorAll("#download");
