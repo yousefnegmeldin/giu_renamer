@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Better File Names - GIU",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Rename downloaded files with more readable names.",
     "permissions": ["downloads"],
     "background": {
